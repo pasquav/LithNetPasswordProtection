@@ -20,14 +20,18 @@ Repositório de implementação do Lithnet em domínio windows para validar senh
  #### <img width="1024" height="857" alt="image" src="https://github.com/user-attachments/assets/9d75c685-6a24-4796-be9e-b3bcb5cb9f1d" />
  #### Agora devemos instalar a role Domain Services
  <img width="784" height="563" alt="image" src="https://github.com/user-attachments/assets/2c20dc34-6d89-4996-bcf6-957449566293" />
+ 
  #### Não é necessário adicionar nenhuma feature adicional para esta instalação.
  #### Depois disso iremos tornar nosso server em um Controlador de Dominio promovendo ele ao nosso domínio testes.local
  #### Para isso devemos lembrar da senha cadastrada no momento da criação da máquina.
  <img width="1023" height="733" alt="image" src="https://github.com/user-attachments/assets/2e7494f5-cfae-466e-8184-b0dc469d0392" />
+
  #### Adicionaremos uma nova árvore e colocaremos nosso domínio (caso tenha algum domínio válido ou for colocar em produção usar o domínio correto)
  <img width="1025" height="731" alt="image" src="https://github.com/user-attachments/assets/73ca8940-6bca-493b-a873-2b63fb36b43d" />
+ 
  #### Nesse passo devemos selecionar o nível operacional do nosso domínio, deixarei como Server 2016 para demonstração, porém podemos reduzir caso necessário
  <img width="765" height="561" alt="image" src="https://github.com/user-attachments/assets/f0b78e4f-45d8-44fd-bdcd-184774b12fa9" />
+ 
  #### Após reiniciada a máquina devemos instalar o Lithnet com uma instalação padrã NNF(Next,Next,Finish)
  #### Realizamos o download através do link (https://packages.lithnet.io/win/password-protection/v1.1/x64/stable)
  #### Lembrando que devemos também instalar o VCRedist juntamente
