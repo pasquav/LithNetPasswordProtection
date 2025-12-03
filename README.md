@@ -8,14 +8,15 @@ Repositório de implementação do Lithnet em domínio windows para validar senh
 - API Key válida do HaveIBeenPwned  
 - PowerShell 5.1+
 
-##Iniciaremos realizando uma instalação limpa do active directory, para laboratório irei utilizar uma imagem do Windows server 2019, porém foi validado que a ferramenta funciona a partir da versão 2012 R2 até a 2025 e o software VirtualBox, com as configurações básicas descritas nas imagens abaixo.
+## Iniciaremos realizando uma instalação limpa do active directory, para laboratório irei utilizar uma imagem do Windows server 2019, porém foi validado que a ferramenta funciona a partir da versão 2012 R2 até a 2025 e o software VirtualBox, com as configurações básicas descritas nas imagens abaixo.
+
 <img width="790" height="350" alt="image" src="https://github.com/user-attachments/assets/57c46809-24b4-480c-9314-5ea814a0d20a" />
 <img width="770" height="172" alt="image" src="https://github.com/user-attachments/assets/3e093d50-5e6a-4677-96d6-c22109e324ee" />
 <img width="789" height="138" alt="image" src="https://github.com/user-attachments/assets/3de95f1c-1f3f-40c5-b9ce-002cdc072c73" />
 <img width="782" height="259" alt="image" src="https://github.com/user-attachments/assets/93d4fd2d-32d1-47e4-8a30-a7f79cc346bc" />
 
 ### Utilizaremos a versão Datacenter (Desktop Experience) para facilitar a utilização dos comandos e instalação da ferramenta.
- - Realizar uma instalação padrão e depois renomear a máquina para o nome que ela deverá ficar, neste caso optei pelo nome ServerTestes19
+ #### Realizar uma instalação padrão e depois renomear a máquina para o nome que ela deverá ficar, neste caso optei pelo nome ServerTestes19
  - <img width="1024" height="857" alt="image" src="https://github.com/user-attachments/assets/9d75c685-6a24-4796-be9e-b3bcb5cb9f1d" />
  - Agora devemos instalar a role Domain Services
  - <img width="784" height="563" alt="image" src="https://github.com/user-attachments/assets/2c20dc34-6d89-4996-bcf6-957449566293" />
